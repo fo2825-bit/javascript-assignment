@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영화 검색</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>영화 검색</h1>
+
+    <form id="search-form">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="영화 제목을 입력하세요"
+      />
+      <button type="submit">검색</button>
+    </form>
+
+    <p id="recent-keyword"></p>
+
+    <ul id="keyword-list"></ul>
+    <ul id="movie-list"></ul>
+
+    <script src="token.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
